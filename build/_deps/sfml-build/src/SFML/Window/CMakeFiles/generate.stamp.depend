@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-src/src/SFML/Window/CMakeLists.txt
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-src/src/SFML/Window/Dependencies.cmake.in
+C:/msys64/ucrt64/share/cmake/Modules/CMakePackageConfigHelpers.cmake
+C:/msys64/ucrt64/share/cmake/Modules/FindOpenGL.cmake
+C:/msys64/ucrt64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake
+C:/msys64/ucrt64/share/cmake/Modules/FindPackageMessage.cmake
+C:/msys64/ucrt64/share/cmake/Modules/WriteBasicConfigVersionFile.cmake

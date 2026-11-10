@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Predator/OneDrive/Po\u010d\u00edta\u010d/DSAA Project/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate"
+		},
+		{
+			"file" : "C:/Users/Predator/OneDrive/Po\u010d\u00edta\u010d/DSAA Project/build/_deps/vorbis-subbuild/CMakeFiles/32505c2f3651617d856cde9c27a3cac5/vorbis-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Predator/OneDrive/Po\u010d\u00edta\u010d/DSAA Project/build/_deps/vorbis-subbuild/CMakeFiles/1c35d72a2caca3ee967bed9d4715a211/vorbis-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Predator/OneDrive/Po\u010d\u00edta\u010d/DSAA Project/build/_deps/vorbis-subbuild/CMakeFiles/2aee720556a957f5b8007739afcb8c59/vorbis-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Predator/OneDrive/Po\u010d\u00edta\u010d/DSAA Project/build/_deps/vorbis-subbuild/CMakeFiles/2aee720556a957f5b8007739afcb8c59/vorbis-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Predator/OneDrive/Po\u010d\u00edta\u010d/DSAA Project/build/_deps/vorbis-subbuild/CMakeFiles/2aee720556a957f5b8007739afcb8c59/vorbis-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Predator/OneDrive/Po\u010d\u00edta\u010d/DSAA Project/build/_deps/vorbis-subbuild/CMakeFiles/2aee720556a957f5b8007739afcb8c59/vorbis-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Predator/OneDrive/Po\u010d\u00edta\u010d/DSAA Project/build/_deps/vorbis-subbuild/CMakeFiles/2aee720556a957f5b8007739afcb8c59/vorbis-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Predator/OneDrive/Po\u010d\u00edta\u010d/DSAA Project/build/_deps/vorbis-subbuild/CMakeFiles/2aee720556a957f5b8007739afcb8c59/vorbis-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Predator/OneDrive/Po\u010d\u00edta\u010d/DSAA Project/build/_deps/vorbis-subbuild/CMakeFiles/2aee720556a957f5b8007739afcb8c59/vorbis-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Predator/OneDrive/Po\u010d\u00edta\u010d/DSAA Project/build/_deps/vorbis-subbuild/CMakeFiles/2aee720556a957f5b8007739afcb8c59/vorbis-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vorbis-populate"
+		],
+		"name" : "vorbis-populate"
+	}
+}

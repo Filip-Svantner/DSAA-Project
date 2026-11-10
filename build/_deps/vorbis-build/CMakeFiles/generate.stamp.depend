@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-src/CMakeLists.txt
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-src/vorbis.pc.in
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-src/vorbisenc.pc.in
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-src/vorbisfile.pc.in
+C:/msys64/ucrt64/share/cmake/Modules/CheckIncludeFiles.cmake
+C:/msys64/ucrt64/share/cmake/Modules/CheckLibraryExists.cmake
+C:/msys64/ucrt64/share/cmake/Modules/GNUInstallDirs.cmake

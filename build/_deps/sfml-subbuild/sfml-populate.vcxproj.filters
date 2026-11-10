@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\18b256f3911a6a857d72ad1f21ac9c8a\sfml-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\18b256f3911a6a857d72ad1f21ac9c8a\sfml-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\18b256f3911a6a857d72ad1f21ac9c8a\sfml-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\18b256f3911a6a857d72ad1f21ac9c8a\sfml-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\18b256f3911a6a857d72ad1f21ac9c8a\sfml-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\18b256f3911a6a857d72ad1f21ac9c8a\sfml-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\18b256f3911a6a857d72ad1f21ac9c8a\sfml-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\18b256f3911a6a857d72ad1f21ac9c8a\sfml-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\6b9ca7ef1b9fc4d3f056232fdeb36862\sfml-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\56668ff43eb5bbbea5e03bfabd1f1c20\sfml-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{72E28838-EFE8-3648-AA18-A62B31B167EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

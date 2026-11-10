@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\CMakeFiles\feb1415a816566e389294f746aa93f48\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A0AE059B-F161-3BB0-88C3-81E3460D636B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

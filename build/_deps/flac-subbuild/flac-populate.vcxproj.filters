@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\flac-subbuild\CMakeFiles\b20a72cd66f1c0acf7afd1c90a77a75f\flac-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\flac-subbuild\CMakeFiles\b20a72cd66f1c0acf7afd1c90a77a75f\flac-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\flac-subbuild\CMakeFiles\b20a72cd66f1c0acf7afd1c90a77a75f\flac-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\flac-subbuild\CMakeFiles\b20a72cd66f1c0acf7afd1c90a77a75f\flac-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\flac-subbuild\CMakeFiles\b20a72cd66f1c0acf7afd1c90a77a75f\flac-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\flac-subbuild\CMakeFiles\b20a72cd66f1c0acf7afd1c90a77a75f\flac-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\flac-subbuild\CMakeFiles\b20a72cd66f1c0acf7afd1c90a77a75f\flac-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\flac-subbuild\CMakeFiles\b20a72cd66f1c0acf7afd1c90a77a75f\flac-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\flac-subbuild\CMakeFiles\5b64ed314be0a918599d866fb95e450b\flac-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\flac-subbuild\CMakeFiles\c114bfb136abab5131a10e9dde47ee13\flac-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\flac-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\flac-subbuild\CMakeFiles\flac-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8F8A0C09-B5D1-3961-B01C-FF962E7FFD19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

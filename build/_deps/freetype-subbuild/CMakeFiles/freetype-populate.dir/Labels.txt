@@ -1,0 +1,14 @@
+# Target labels
+ freetype-populate
+# Source files and their labels
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-subbuild/CMakeFiles/c569089d5e0ee0271cc0eeccb13bf091/freetype-populate.rule
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-subbuild/CMakeFiles/c7a928c36d466667bebb81cdc6accb4d/freetype-populate-complete.rule
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-subbuild/CMakeFiles/a9e26481d90797153dcd0f13b53b6157/freetype-populate-build.rule
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-subbuild/CMakeFiles/a9e26481d90797153dcd0f13b53b6157/freetype-populate-configure.rule
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-subbuild/CMakeFiles/a9e26481d90797153dcd0f13b53b6157/freetype-populate-download.rule
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-subbuild/CMakeFiles/a9e26481d90797153dcd0f13b53b6157/freetype-populate-install.rule
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-subbuild/CMakeFiles/a9e26481d90797153dcd0f13b53b6157/freetype-populate-mkdir.rule
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-subbuild/CMakeFiles/a9e26481d90797153dcd0f13b53b6157/freetype-populate-patch.rule
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-subbuild/CMakeFiles/a9e26481d90797153dcd0f13b53b6157/freetype-populate-test.rule
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-subbuild/CMakeFiles/a9e26481d90797153dcd0f13b53b6157/freetype-populate-update.rule

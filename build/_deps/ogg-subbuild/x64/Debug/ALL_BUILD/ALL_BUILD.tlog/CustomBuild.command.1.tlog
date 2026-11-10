@@ -1,0 +1,10 @@
+^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\OGG-SUBBUILD\CMAKELISTS.TXT
+setlocal
+C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/ogg-subbuild" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/ogg-subbuild" --check-stamp-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/ogg-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

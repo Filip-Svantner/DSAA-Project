@@ -1,0 +1,14 @@
+# Target labels
+ ogg-populate
+# Source files and their labels
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/ogg-subbuild/CMakeFiles/dbe4c9af79ce89df7d8c23de2c4d0f3b/ogg-populate.rule
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/ogg-subbuild/CMakeFiles/ccc6593faf23961e33140b47f1398716/ogg-populate-complete.rule
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/ogg-subbuild/CMakeFiles/a967e305267b2346ddcece2bb24fd23b/ogg-populate-build.rule
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/ogg-subbuild/CMakeFiles/a967e305267b2346ddcece2bb24fd23b/ogg-populate-configure.rule
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/ogg-subbuild/CMakeFiles/a967e305267b2346ddcece2bb24fd23b/ogg-populate-download.rule
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/ogg-subbuild/CMakeFiles/a967e305267b2346ddcece2bb24fd23b/ogg-populate-install.rule
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/ogg-subbuild/CMakeFiles/a967e305267b2346ddcece2bb24fd23b/ogg-populate-mkdir.rule
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/ogg-subbuild/CMakeFiles/a967e305267b2346ddcece2bb24fd23b/ogg-populate-patch.rule
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/ogg-subbuild/CMakeFiles/a967e305267b2346ddcece2bb24fd23b/ogg-populate-test.rule
+C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/ogg-subbuild/CMakeFiles/a967e305267b2346ddcece2bb24fd23b/ogg-populate-update.rule
