@@ -1,21 +1,15 @@
 #include <iostream>
 
-struct Consumables
+enum Type
 {
-
-};
-
-struct Weapon
-{
-
-};
-
-struct Armor
-{
-
+    WEAPON,
+    ARMOR,
+    CONSUMABLE
 };
 
 class Item
 {
-
+    Type type;
+    std::string name;
+    
 };

@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Item.h"
 
 struct Loot
 {
