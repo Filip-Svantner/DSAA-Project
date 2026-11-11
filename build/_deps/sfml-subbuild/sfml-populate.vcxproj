@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
@@ -10,7 +10,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E8457646-8E90-3679-A1B2-E5785FE9A2A2}</ProjectGuid>
+    <ProjectGuid>{23050588-4666-3B8F-AE3E-07D5F84C1095}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -21,7 +21,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseDebugLibraries>true</UseDebugLibraries>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
@@ -46,13 +46,13 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\18b256f3911a6a857d72ad1f21ac9c8a\sfml-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\CMakeFiles\13f3b665870faecc85d9514ec0faf7f1\sfml-populate-mkdir.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\msys64\ucrt64\bin\cmake.exe -Dcfgdir=/Debug -P "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-mkdirs.cmake"
+C:\raylib\w64devkit\bin\cmake.exe -Dcfgdir=/Debug -P C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-mkdir"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -61,25 +61,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\18b256f3911a6a857d72ad1f21ac9c8a\sfml-populate-download.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\CMakeFiles\13f3b665870faecc85d9514ec0faf7f1\sfml-populate-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (download, verify and extract) for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps"
+cd C:\Users\gameuser\Desktop\DSAA-Project\build\_deps
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/download-sfml-populate.cmake"
+C:\raylib\w64devkit\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/download-sfml-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/verify-sfml-populate.cmake"
+C:\raylib\w64devkit\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/verify-sfml-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/extract-sfml-populate.cmake"
+C:\raylib\w64devkit\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/extract-sfml-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-download"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -87,18 +87,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\download-sfml-populate.cmake;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\sfml-populate-urlinfo.txt;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\download-sfml-populate.cmake;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\sfml-populate-urlinfo.txt;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\18b256f3911a6a857d72ad1f21ac9c8a\sfml-populate-update.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\CMakeFiles\13f3b665870faecc85d9514ec0faf7f1\sfml-populate-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No update step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\msys64\ucrt64\bin\cmake.exe -E echo_append
+C:\raylib\w64devkit\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-update"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -106,18 +106,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\sfml-populate-update-info.txt;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\sfml-populate-update-info.txt;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\18b256f3911a6a857d72ad1f21ac9c8a\sfml-populate-patch.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\CMakeFiles\13f3b665870faecc85d9514ec0faf7f1\sfml-populate-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\msys64\ucrt64\bin\cmake.exe -E echo_append
+C:\raylib\w64devkit\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-patch"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -125,23 +125,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\sfml-populate-patch-info.txt;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\sfml-populate-patch-info.txt;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\18b256f3911a6a857d72ad1f21ac9c8a\sfml-populate-configure.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\CMakeFiles\13f3b665870faecc85d9514ec0faf7f1\sfml-populate-configure.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build"
+cd C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E echo_append
+C:\raylib\w64devkit\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-configure"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -149,23 +149,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-cfgcmd.txt;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-cfgcmd.txt;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\18b256f3911a6a857d72ad1f21ac9c8a\sfml-populate-build.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\CMakeFiles\13f3b665870faecc85d9514ec0faf7f1\sfml-populate-build.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build"
+cd C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E echo_append
+C:\raylib\w64devkit\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-build"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -173,23 +173,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\18b256f3911a6a857d72ad1f21ac9c8a\sfml-populate-install.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\CMakeFiles\13f3b665870faecc85d9514ec0faf7f1\sfml-populate-install.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build"
+cd C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E echo_append
+C:\raylib\w64devkit\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-install"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -197,23 +197,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\18b256f3911a6a857d72ad1f21ac9c8a\sfml-populate-test.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\CMakeFiles\13f3b665870faecc85d9514ec0faf7f1\sfml-populate-test.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build"
+cd C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E echo_append
+C:\raylib\w64devkit\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-test"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,21 +221,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\6b9ca7ef1b9fc4d3f056232fdeb36862\sfml-populate-complete.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\CMakeFiles\470a35ef754c6d95bd2817c7ae24a4b3\sfml-populate-complete.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\msys64\ucrt64\bin\cmake.exe -E make_directory "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/CMakeFiles/Debug"
+C:\raylib\w64devkit\bin\cmake.exe -E make_directory C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/CMakeFiles/Debug
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/CMakeFiles/Debug/sfml-populate-complete"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/CMakeFiles/Debug/sfml-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-done"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -243,13 +243,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-install;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-mkdir;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-download;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-update;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-patch;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-configure;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-build;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\Debug\sfml-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-install;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-mkdir;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-download;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-update;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-patch;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-configure;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-build;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\src\sfml-populate-stamp\Debug\sfml-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\CMakeFiles\Debug\sfml-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\56668ff43eb5bbbea5e03bfabd1f1c20\sfml-populate.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\CMakeFiles\23affb278f94d78225b510df1e2f21d2\sfml-populate.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
@@ -259,18 +259,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\Debug\sfml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\CMakeFiles\Debug\sfml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild" --check-stamp-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/CMakeFiles/generate.stamp"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild -BC:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild --check-stamp-file C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -278,19 +278,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\4.2.0\CMakeSystem.cmake;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-mkdirs.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeGenericSystem.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeInitializeConfigs.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeSystemSpecificInitialize.cmake;C:\msys64\ucrt64\share\cmake\Modules\ExternalProject.cmake;C:\msys64\ucrt64\share\cmake\Modules\ExternalProject\PatchInfo.txt.in;C:\msys64\ucrt64\share\cmake\Modules\ExternalProject\RepositoryInfo.txt.in;C:\msys64\ucrt64\share\cmake\Modules\ExternalProject\UpdateInfo.txt.in;C:\msys64\ucrt64\share\cmake\Modules\ExternalProject\cfgcmd.txt.in;C:\msys64\ucrt64\share\cmake\Modules\ExternalProject\download.cmake.in;C:\msys64\ucrt64\share\cmake\Modules\ExternalProject\extractfile.cmake.in;C:\msys64\ucrt64\share\cmake\Modules\ExternalProject\mkdirs.cmake.in;C:\msys64\ucrt64\share\cmake\Modules\ExternalProject\shared_internal_commands.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Windows-Initialize.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Windows.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\CMakeFiles\4.3.1\CMakeSystem.cmake;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-mkdirs.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\ExternalProject.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\ExternalProject\PatchInfo.txt.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\ExternalProject\RepositoryInfo.txt.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\ExternalProject\UpdateInfo.txt.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\ExternalProject\cfgcmd.txt.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\ExternalProject\download.cmake.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\ExternalProject\extractfile.cmake.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\ExternalProject\mkdirs.cmake.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate">
+    <None Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate">
     </None>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{EC344813-A603-331F-A670-017BF644C88D}</Project>
+    <ProjectReference Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{3C2D1C2A-658A-3AC7-9F4F-D46822D464A3}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

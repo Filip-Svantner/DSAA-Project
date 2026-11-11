@@ -1,7 +1,7 @@
 # Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
 # file LICENSE.rst or https://cmake.org/licensing for details.
 
-cmake_minimum_required(VERSION 4.2.0)
+cmake_minimum_required(VERSION 4.3.1)
 
 # Reject any attempt to use a toolchain file. We must not use one because
 # we could be downloading it here. If the CMAKE_TOOLCHAIN_FILE environment
@@ -20,8 +20,8 @@ project(sfml-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(sfml-populate
                      "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "TRUE" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "URL" "https://github.com/SFML/SFML/archive/refs/tags/3.0.0.tar.gz"
-                    SOURCE_DIR          "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-src"
-                    BINARY_DIR          "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-build"
+                    SOURCE_DIR          "C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-src"
+                    BINARY_DIR          "C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

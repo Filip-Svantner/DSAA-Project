@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-subbuild\CMakeFiles\a9e26481d90797153dcd0f13b53b6157\freetype-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-subbuild\CMakeFiles\3c5a0755f1bad992c1f97375c5b2cd7b\freetype-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-subbuild\CMakeFiles\a9e26481d90797153dcd0f13b53b6157\freetype-populate-download.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-subbuild\CMakeFiles\3c5a0755f1bad992c1f97375c5b2cd7b\freetype-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-subbuild\CMakeFiles\a9e26481d90797153dcd0f13b53b6157\freetype-populate-update.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-subbuild\CMakeFiles\3c5a0755f1bad992c1f97375c5b2cd7b\freetype-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-subbuild\CMakeFiles\a9e26481d90797153dcd0f13b53b6157\freetype-populate-patch.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-subbuild\CMakeFiles\3c5a0755f1bad992c1f97375c5b2cd7b\freetype-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-subbuild\CMakeFiles\a9e26481d90797153dcd0f13b53b6157\freetype-populate-configure.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-subbuild\CMakeFiles\3c5a0755f1bad992c1f97375c5b2cd7b\freetype-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-subbuild\CMakeFiles\a9e26481d90797153dcd0f13b53b6157\freetype-populate-build.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-subbuild\CMakeFiles\3c5a0755f1bad992c1f97375c5b2cd7b\freetype-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-subbuild\CMakeFiles\a9e26481d90797153dcd0f13b53b6157\freetype-populate-install.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-subbuild\CMakeFiles\3c5a0755f1bad992c1f97375c5b2cd7b\freetype-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-subbuild\CMakeFiles\a9e26481d90797153dcd0f13b53b6157\freetype-populate-test.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-subbuild\CMakeFiles\3c5a0755f1bad992c1f97375c5b2cd7b\freetype-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-subbuild\CMakeFiles\c7a928c36d466667bebb81cdc6accb4d\freetype-populate-complete.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-subbuild\CMakeFiles\caed3ce2c86ba2a804a8fd2c0659ce69\freetype-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-subbuild\CMakeFiles\c569089d5e0ee0271cc0eeccb13bf091\freetype-populate.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-subbuild\CMakeFiles\ada3d5584d777d8d0c8ed40f4e079bcd\freetype-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-subbuild\CMakeFiles\freetype-populate" />
+    <None Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-subbuild\CMakeFiles\freetype-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{D2AF41AA-F7D0-3D60-B967-9DEACBEDD0D2}</UniqueIdentifier>
+      <UniqueIdentifier>{B9489917-C553-3C25-BFAF-D01C032B5005}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

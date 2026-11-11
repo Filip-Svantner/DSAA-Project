@@ -4,6 +4,7 @@
 build/
 bin/
 obj/
+build/
 
 # Compiled files
 *.exe

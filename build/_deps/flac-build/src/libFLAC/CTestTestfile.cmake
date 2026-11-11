@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/flac-src/src/libFLAC
-# Build directory: C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/flac-build/src/libFLAC
+# Source directory: C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/flac-src/src/libFLAC
+# Build directory: C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/flac-build/src/libFLAC
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

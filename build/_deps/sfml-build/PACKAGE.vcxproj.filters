@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\CMakeFiles\8450098ccf06213766d31e37e43c9a2a\PACKAGE_force.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\CMakeFiles\7b6b594669d5df5c30780c20d38c1b10\PACKAGE_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{A0AE059B-F161-3BB0-88C3-81E3460D636B}</UniqueIdentifier>
+      <UniqueIdentifier>{1C043DAD-4415-3968-8019-ACD08A94E39F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

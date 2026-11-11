@@ -1,6 +1,6 @@
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\C569089D5E0EE0271CC0EECCB13BF091\GENERATE.STAMP.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\ADA3D5584D777D8D0C8ED40F4E079BCD\GENERATE.STAMP.RULE
 setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-subbuild" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-subbuild/freetype-populate.sln"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project/build/_deps/freetype-subbuild -BC:/Users/gameuser/Desktop/DSAA-Project/build/_deps/freetype-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/freetype-subbuild/freetype-populate.slnx
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

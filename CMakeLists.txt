@@ -14,5 +14,11 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(SFML)
 
-add_executable(SFMLGame main.cpp)
+add_executable(SFMLGame main.cpp Game.cpp Room.cpp Enemy.cpp)
 target_link_libraries(SFMLGame PRIVATE SFML::Graphics SFML::Audio)
+
+add_custom_command(TARGET SFMLGame POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+        ${CMAKE_SOURCE_DIR}/assets
+        $<TARGET_FILE_DIR:SFMLGame>/assets
+)

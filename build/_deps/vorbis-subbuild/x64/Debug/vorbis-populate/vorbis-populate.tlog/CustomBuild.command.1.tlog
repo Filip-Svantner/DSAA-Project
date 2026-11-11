@@ -1,8 +1,8 @@
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\2AEE720556A957F5B8007739AFCB8C59\VORBIS-POPULATE-MKDIR.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\7CCCED59E078DDF3BB287B241CCC0005\VORBIS-POPULATE-MKDIR.RULE
 setlocal
-C:\msys64\ucrt64\bin\cmake.exe -Dcfgdir=/Debug -P "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/tmp/vorbis-populate-mkdirs.cmake"
+C:\raylib\w64devkit\bin\cmake.exe -Dcfgdir=/Debug -P C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/tmp/vorbis-populate-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-mkdir"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -10,15 +10,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\2AEE720556A957F5B8007739AFCB8C59\VORBIS-POPULATE-DOWNLOAD.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\7CCCED59E078DDF3BB287B241CCC0005\VORBIS-POPULATE-DOWNLOAD.RULE
 setlocal
-cd "C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps"
+cd C:\Users\gameuser\Desktop\DSAA-Project\build\_deps
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/tmp/vorbis-populate-gitclone.cmake"
+C:\raylib\w64devkit\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/tmp/vorbis-populate-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-download"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -26,13 +26,13 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\2AEE720556A957F5B8007739AFCB8C59\VORBIS-POPULATE-UPDATE.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\7CCCED59E078DDF3BB287B241CCC0005\VORBIS-POPULATE-UPDATE.RULE
 setlocal
-cd "C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-src"
+cd C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/tmp/vorbis-populate-gitupdate.cmake"
+C:\raylib\w64devkit\bin\cmake.exe -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/tmp/vorbis-populate-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -40,15 +40,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\2AEE720556A957F5B8007739AFCB8C59\VORBIS-POPULATE-PATCH.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\7CCCED59E078DDF3BB287B241CCC0005\VORBIS-POPULATE-PATCH.RULE
 setlocal
-cd "C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-src"
+cd C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe "-DVORBIS_DIR=C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-src" -P "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-src/tools/vorbis/PatchVorbis.cmake"
+C:\raylib\w64devkit\bin\cmake.exe -DVORBIS_DIR=C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-src -P C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-src/tools/vorbis/PatchVorbis.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-patch"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -56,15 +56,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\2AEE720556A957F5B8007739AFCB8C59\VORBIS-POPULATE-CONFIGURE.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\7CCCED59E078DDF3BB287B241CCC0005\VORBIS-POPULATE-CONFIGURE.RULE
 setlocal
-cd "C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-build"
+cd C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E echo_append
+C:\raylib\w64devkit\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-configure"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -72,15 +72,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\2AEE720556A957F5B8007739AFCB8C59\VORBIS-POPULATE-BUILD.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\7CCCED59E078DDF3BB287B241CCC0005\VORBIS-POPULATE-BUILD.RULE
 setlocal
-cd "C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-build"
+cd C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E echo_append
+C:\raylib\w64devkit\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-build"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -88,15 +88,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\2AEE720556A957F5B8007739AFCB8C59\VORBIS-POPULATE-INSTALL.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\7CCCED59E078DDF3BB287B241CCC0005\VORBIS-POPULATE-INSTALL.RULE
 setlocal
-cd "C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-build"
+cd C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E echo_append
+C:\raylib\w64devkit\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-install"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -104,29 +104,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\2AEE720556A957F5B8007739AFCB8C59\VORBIS-POPULATE-TEST.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\7CCCED59E078DDF3BB287B241CCC0005\VORBIS-POPULATE-TEST.RULE
 setlocal
-cd "C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-build"
+cd C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E echo_append
+C:\raylib\w64devkit\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-test"
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\1C35D72A2CACA3EE967BED9D4715A211\VORBIS-POPULATE-COMPLETE.RULE
-setlocal
-C:\msys64\ucrt64\bin\cmake.exe -E make_directory "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-subbuild/CMakeFiles/Debug"
-if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-subbuild/CMakeFiles/Debug/vorbis-populate-complete"
-if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-done"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -134,7 +120,21 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\32505C2F3651617D856CDE9C27A3CAC5\VORBIS-POPULATE.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\783DB77ED3931B8B4104D2A40AC7ED1D\VORBIS-POPULATE-COMPLETE.RULE
+setlocal
+C:\raylib\w64devkit\bin\cmake.exe -E make_directory C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-subbuild/CMakeFiles/Debug/vorbis-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\5B03B7D86A695B361B012D1CDA128475\VORBIS-POPULATE.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -142,9 +142,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKELISTS.TXT
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKELISTS.TXT
 setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-subbuild" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-subbuild" --check-stamp-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-subbuild/CMakeFiles/generate.stamp"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-subbuild -BC:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-subbuild --check-stamp-file C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

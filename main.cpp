@@ -1,14 +1,28 @@
 #include <SFML/Graphics.hpp>
 #include <optional>
-#include "Enemy.h"
-#include "Item.h"
+#include <cstdlib>
+#include <ctime>
+#include "Game.h"
+
+Game game; 
+
+void init();
+void update();
+
 
 int main() {
+    std::srand(std::time(nullptr));
+
+    init();
+
     sf::RenderWindow window(sf::VideoMode({800, 600}), "SFML 3 CMake Setup");
     window.setFramerateLimit(60);
 
     
-
+    sf::CircleShape circle;
+    circle.setFillColor(sf::Color::Green);
+    circle.setPosition({400.0f, 300.0f});
+    circle.setRadius(50.0f);
 
     while (window.isOpen()) {
         // Use pollEvent() to safely handle events without MSVC debug stack issues
@@ -24,6 +38,7 @@ int main() {
         }
 
         window.clear();
+        window.draw(circle);
         window.display();
     }
     return 0;
@@ -31,7 +46,16 @@ int main() {
 
 void init()
 {
-    std::vector<Enemy> enemies;
-    std::vector<Items> items;
-    
+    game.generateFloor();
+    game.displayFloor();
+}
+
+void update()
+{
+
+    if (game.getState() == RoomType::COMBAT)
+    {
+        game.setEnemy();
+        game.processCombat();
+    }
 }

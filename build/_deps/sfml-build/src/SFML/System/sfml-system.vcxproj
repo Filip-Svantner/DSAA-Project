@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8AD938AF-5740-38CF-8A40-F2B97B52104A}</ProjectGuid>
+    <ProjectGuid>{BDC752BA-200C-30D6-AAF9-0C571FD5F8A4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -33,22 +33,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-system.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-system-s-d</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-system.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-system-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-system.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-system-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-system.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-system-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -104,15 +104,15 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build\lib\Debug\sfml-system-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build\lib\Debug\sfml-system-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -125,7 +125,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -152,15 +152,15 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build\lib\Release\sfml-system-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build\lib\Release\sfml-system-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -173,7 +173,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -200,15 +200,15 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build\lib\MinSizeRel\sfml-system-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build\lib\MinSizeRel\sfml-system-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -221,7 +221,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -247,15 +247,15 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build\lib\RelWithDebInfo\sfml-system-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build\lib\RelWithDebInfo\sfml-system-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -267,11 +267,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src\SFML\System\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src\SFML\System\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build" --check-stamp-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project -BC:/Users/gameuser/Desktop/DSAA-Project/build --check-stamp-file C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -279,12 +279,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;C:\msys64\ucrt64\share\cmake\Modules\CMakePackageConfigHelpers.cmake;C:\msys64\ucrt64\share\cmake\Modules\CheckCSourceCompiles.cmake;C:\msys64\ucrt64\share\cmake\Modules\CheckIncludeFile.cmake;C:\msys64\ucrt64\share\cmake\Modules\CheckLibraryExists.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPackageHandleStandardArgs.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPackageMessage.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindThreads.cmake;C:\msys64\ucrt64\share\cmake\Modules\Internal\CheckSourceCompiles.cmake;C:\msys64\ucrt64\share\cmake\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindThreads.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build" --check-stamp-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project -BC:/Users/gameuser/Desktop/DSAA-Project/build --check-stamp-file C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -292,12 +292,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;C:\msys64\ucrt64\share\cmake\Modules\CMakePackageConfigHelpers.cmake;C:\msys64\ucrt64\share\cmake\Modules\CheckCSourceCompiles.cmake;C:\msys64\ucrt64\share\cmake\Modules\CheckIncludeFile.cmake;C:\msys64\ucrt64\share\cmake\Modules\CheckLibraryExists.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPackageHandleStandardArgs.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPackageMessage.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindThreads.cmake;C:\msys64\ucrt64\share\cmake\Modules\Internal\CheckSourceCompiles.cmake;C:\msys64\ucrt64\share\cmake\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindThreads.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build" --check-stamp-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project -BC:/Users/gameuser/Desktop/DSAA-Project/build --check-stamp-file C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -305,12 +305,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;C:\msys64\ucrt64\share\cmake\Modules\CMakePackageConfigHelpers.cmake;C:\msys64\ucrt64\share\cmake\Modules\CheckCSourceCompiles.cmake;C:\msys64\ucrt64\share\cmake\Modules\CheckIncludeFile.cmake;C:\msys64\ucrt64\share\cmake\Modules\CheckLibraryExists.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPackageHandleStandardArgs.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPackageMessage.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindThreads.cmake;C:\msys64\ucrt64\share\cmake\Modules\Internal\CheckSourceCompiles.cmake;C:\msys64\ucrt64\share\cmake\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindThreads.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build" --check-stamp-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project -BC:/Users/gameuser/Desktop/DSAA-Project/build --check-stamp-file C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -318,52 +318,52 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;C:\msys64\ucrt64\share\cmake\Modules\CMakePackageConfigHelpers.cmake;C:\msys64\ucrt64\share\cmake\Modules\CheckCSourceCompiles.cmake;C:\msys64\ucrt64\share\cmake\Modules\CheckIncludeFile.cmake;C:\msys64\ucrt64\share\cmake\Modules\CheckLibraryExists.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPackageHandleStandardArgs.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPackageMessage.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindThreads.cmake;C:\msys64\ucrt64\share\cmake\Modules\Internal\CheckSourceCompiles.cmake;C:\msys64\ucrt64\share\cmake\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindThreads.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\Angle.hpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\Angle.inl" />
-    <ClCompile Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src\SFML\System\Clock.cpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\Clock.hpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src\SFML\System\EnumArray.hpp" />
-    <ClCompile Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src\SFML\System\Err.cpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\Err.hpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\Exception.hpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\Export.hpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\InputStream.hpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\NativeActivity.hpp" />
-    <ClCompile Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src\SFML\System\Sleep.cpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\Sleep.hpp" />
-    <ClCompile Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src\SFML\System\String.cpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\String.hpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\String.inl" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\Time.hpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\Time.inl" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\Utf.hpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\Utf.inl" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src\SFML\System\Utils.hpp" />
-    <ClCompile Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src\SFML\System\Utils.cpp" />
-    <ClCompile Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src\SFML\System\Vector2.cpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\Vector2.hpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\Vector2.inl" />
-    <ClCompile Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src\SFML\System\Vector3.cpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\Vector3.hpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\Vector3.inl" />
-    <ClCompile Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src\SFML\System\FileInputStream.cpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\FileInputStream.hpp" />
-    <ClCompile Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src\SFML\System\MemoryInputStream.cpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\MemoryInputStream.hpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include\SFML\System\SuspendAwareClock.hpp" />
-    <ClCompile Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.cpp" />
-    <ClInclude Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.hpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\Angle.hpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\Angle.inl" />
+    <ClCompile Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src\SFML\System\Clock.cpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\Clock.hpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src\SFML\System\EnumArray.hpp" />
+    <ClCompile Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src\SFML\System\Err.cpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\Err.hpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\Exception.hpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\Export.hpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\InputStream.hpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\NativeActivity.hpp" />
+    <ClCompile Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src\SFML\System\Sleep.cpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\Sleep.hpp" />
+    <ClCompile Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src\SFML\System\String.cpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\String.hpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\String.inl" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\Time.hpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\Time.inl" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\Utf.hpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\Utf.inl" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src\SFML\System\Utils.hpp" />
+    <ClCompile Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src\SFML\System\Utils.cpp" />
+    <ClCompile Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src\SFML\System\Vector2.cpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\Vector2.hpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\Vector2.inl" />
+    <ClCompile Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src\SFML\System\Vector3.cpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\Vector3.hpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\Vector3.inl" />
+    <ClCompile Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src\SFML\System\FileInputStream.cpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\FileInputStream.hpp" />
+    <ClCompile Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src\SFML\System\MemoryInputStream.cpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\MemoryInputStream.hpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include\SFML\System\SuspendAwareClock.hpp" />
+    <ClCompile Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.cpp" />
+    <ClInclude Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.hpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\ZERO_CHECK.vcxproj">
-      <Project>{E792A6EC-AB74-3DB8-9FAE-741AF03C52A6}</Project>
+    <ProjectReference Include="C:\Users\gameuser\Desktop\DSAA-Project\build\ZERO_CHECK.vcxproj">
+      <Project>{885764E4-526C-3D61-B105-CE7DFD9D9F0E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

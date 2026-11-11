@@ -1,5 +1,5 @@
 # CMake generation dependency list for this directory.
-C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/flac-src/cmake/CheckA64NEON.cmake
-C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/flac-src/cmake/CheckCPUArch.cmake
-C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/flac-src/src/libFLAC/CMakeLists.txt
-C:/msys64/ucrt64/share/cmake/Modules/CheckCSourceCompiles.cmake
+C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/flac-src/cmake/CheckA64NEON.cmake
+C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/flac-src/cmake/CheckCPUArch.cmake
+C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/flac-src/src/libFLAC/CMakeLists.txt
+C:/raylib/w64devkit/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake

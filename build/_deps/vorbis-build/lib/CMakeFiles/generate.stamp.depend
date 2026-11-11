@@ -1,6 +1,6 @@
 # CMake generation dependency list for this directory.
-C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-src/cmake/VorbisConfig.cmake.in
-C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/vorbis-src/lib/CMakeLists.txt
-C:/msys64/ucrt64/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
-C:/msys64/ucrt64/share/cmake/Modules/CMakePackageConfigHelpers.cmake
-C:/msys64/ucrt64/share/cmake/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-src/cmake/VorbisConfig.cmake.in
+C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-src/lib/CMakeLists.txt
+C:/raylib/w64devkit/share/cmake-4.3/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakePackageConfigHelpers.cmake
+C:/raylib/w64devkit/share/cmake-4.3/Modules/WriteBasicConfigVersionFile.cmake

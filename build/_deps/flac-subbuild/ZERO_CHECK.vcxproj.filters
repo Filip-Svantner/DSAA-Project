@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\flac-subbuild\CMakeFiles\c114bfb136abab5131a10e9dde47ee13\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\flac-subbuild\CMakeFiles\5a68305fa0a4d1c1d7350a6791432089\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{8F8A0C09-B5D1-3961-B01C-FF962E7FFD19}</UniqueIdentifier>
+      <UniqueIdentifier>{6CD3501B-CCA9-3B26-AE79-F6916BCCAE9A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

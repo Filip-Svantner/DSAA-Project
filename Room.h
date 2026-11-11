@@ -1,14 +1,20 @@
+#pragma once
 #include <iostream>
 
-enum RoomType
+enum class RoomType
 {
     COMBAT,
     CHEST,
     SHOP,
-    EVENT
+    EVENT,
+    EMPTY
 };
 
 class Room
 {
+public:
     RoomType type;
+
+    Room() : type(RoomType::EMPTY) {}
+    void changeType(RoomType t);
 };

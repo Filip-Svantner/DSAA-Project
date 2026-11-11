@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
 # Make file names absolute:
 #
-get_filename_component(filename "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/3.0.0.tar.gz" ABSOLUTE)
-get_filename_component(directory "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-src" ABSOLUTE)
+get_filename_component(filename "C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/3.0.0.tar.gz" ABSOLUTE)
+get_filename_component(directory "C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-src" ABSOLUTE)
 
 message(VERBOSE "extracting...
      src='${filename}'

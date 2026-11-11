@@ -1,6 +1,6 @@
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\FLAC-SUBBUILD\CMAKEFILES\C114BFB136ABAB5131A10E9DDE47EE13\GENERATE.STAMP.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\FLAC-SUBBUILD\CMAKEFILES\5A68305FA0A4D1C1D7350A6791432089\GENERATE.STAMP.RULE
 setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/flac-subbuild" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/flac-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/flac-subbuild/flac-populate.sln"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project/build/_deps/flac-subbuild -BC:/Users/gameuser/Desktop/DSAA-Project/build/_deps/flac-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/flac-subbuild/flac-populate.slnx
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

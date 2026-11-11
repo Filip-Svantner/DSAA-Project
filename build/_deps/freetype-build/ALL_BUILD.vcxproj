@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{08686181-9C6B-3898-9104-0AC7FB407F0F}</ProjectGuid>
+    <ProjectGuid>{804E7096-8ADB-3579-A90E-2ADC1DBA62B1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -36,22 +36,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/freetype-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build" --check-stamp-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-build/CMakeFiles/generate.stamp"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project -BC:/Users/gameuser/Desktop/DSAA-Project/build --check-stamp-file C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/freetype-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\msys64\ucrt64\share\cmake\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\msys64\ucrt64\share\cmake\Modules\CMakeDependentOption.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakePackageConfigHelpers.cmake;C:\msys64\ucrt64\share\cmake\Modules\CPack.cmake;C:\msys64\ucrt64\share\cmake\Modules\CPackComponent.cmake;C:\msys64\ucrt64\share\cmake\Modules\CheckIncludeFile.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPackageHandleStandardArgs.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPackageMessage.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPkgConfig.cmake;C:\msys64\ucrt64\share\cmake\Modules\GNUInstallDirs.cmake;C:\msys64\ucrt64\share\cmake\Modules\WriteBasicConfigVersionFile.cmake;C:\msys64\ucrt64\share\cmake\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\raylib\w64devkit\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeDependentOption.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CPack.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CPackComponent.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPkgConfig.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\GNUInstallDirs.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\raylib\w64devkit\share\cmake-4.3\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/freetype-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build" --check-stamp-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-build/CMakeFiles/generate.stamp"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project -BC:/Users/gameuser/Desktop/DSAA-Project/build --check-stamp-file C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/freetype-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\msys64\ucrt64\share\cmake\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\msys64\ucrt64\share\cmake\Modules\CMakeDependentOption.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakePackageConfigHelpers.cmake;C:\msys64\ucrt64\share\cmake\Modules\CPack.cmake;C:\msys64\ucrt64\share\cmake\Modules\CPackComponent.cmake;C:\msys64\ucrt64\share\cmake\Modules\CheckIncludeFile.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPackageHandleStandardArgs.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPackageMessage.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPkgConfig.cmake;C:\msys64\ucrt64\share\cmake\Modules\GNUInstallDirs.cmake;C:\msys64\ucrt64\share\cmake\Modules\WriteBasicConfigVersionFile.cmake;C:\msys64\ucrt64\share\cmake\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\raylib\w64devkit\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeDependentOption.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CPack.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CPackComponent.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPkgConfig.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\GNUInstallDirs.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\raylib\w64devkit\share\cmake-4.3\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/freetype-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build" --check-stamp-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-build/CMakeFiles/generate.stamp"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project -BC:/Users/gameuser/Desktop/DSAA-Project/build --check-stamp-file C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/freetype-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\msys64\ucrt64\share\cmake\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\msys64\ucrt64\share\cmake\Modules\CMakeDependentOption.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakePackageConfigHelpers.cmake;C:\msys64\ucrt64\share\cmake\Modules\CPack.cmake;C:\msys64\ucrt64\share\cmake\Modules\CPackComponent.cmake;C:\msys64\ucrt64\share\cmake\Modules\CheckIncludeFile.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPackageHandleStandardArgs.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPackageMessage.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPkgConfig.cmake;C:\msys64\ucrt64\share\cmake\Modules\GNUInstallDirs.cmake;C:\msys64\ucrt64\share\cmake\Modules\WriteBasicConfigVersionFile.cmake;C:\msys64\ucrt64\share\cmake\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\raylib\w64devkit\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeDependentOption.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CPack.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CPackComponent.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPkgConfig.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\GNUInstallDirs.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\raylib\w64devkit\share\cmake-4.3\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/freetype-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build" --check-stamp-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/freetype-build/CMakeFiles/generate.stamp"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project -BC:/Users/gameuser/Desktop/DSAA-Project/build --check-stamp-file C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/freetype-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,8 +159,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\msys64\ucrt64\share\cmake\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\msys64\ucrt64\share\cmake\Modules\CMakeDependentOption.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakePackageConfigHelpers.cmake;C:\msys64\ucrt64\share\cmake\Modules\CPack.cmake;C:\msys64\ucrt64\share\cmake\Modules\CPackComponent.cmake;C:\msys64\ucrt64\share\cmake\Modules\CheckIncludeFile.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPackageHandleStandardArgs.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPackageMessage.cmake;C:\msys64\ucrt64\share\cmake\Modules\FindPkgConfig.cmake;C:\msys64\ucrt64\share\cmake\Modules\GNUInstallDirs.cmake;C:\msys64\ucrt64\share\cmake\Modules\WriteBasicConfigVersionFile.cmake;C:\msys64\ucrt64\share\cmake\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\raylib\w64devkit\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeDependentOption.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CPack.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CPackComponent.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FindPkgConfig.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\GNUInstallDirs.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\raylib\w64devkit\share\cmake-4.3\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -168,14 +168,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\ZERO_CHECK.vcxproj">
-      <Project>{E792A6EC-AB74-3DB8-9FAE-741AF03C52A6}</Project>
+    <ProjectReference Include="C:\Users\gameuser\Desktop\DSAA-Project\build\ZERO_CHECK.vcxproj">
+      <Project>{885764E4-526C-3D61-B105-CE7DFD9D9F0E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-build\freetype.vcxproj">
-      <Project>{001254E0-69C5-38A8-B440-10AADEE3D895}</Project>
+    <ProjectReference Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-build\freetype.vcxproj">
+      <Project>{EC90B89F-5AB0-3A20-B383-A07F5317776F}</Project>
       <Name>freetype</Name>
     </ProjectReference>
   </ItemGroup>

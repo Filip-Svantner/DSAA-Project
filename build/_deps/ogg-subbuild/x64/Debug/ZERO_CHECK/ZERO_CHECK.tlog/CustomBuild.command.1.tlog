@@ -1,6 +1,6 @@
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\OGG-SUBBUILD\CMAKEFILES\DBE4C9AF79CE89DF7D8C23DE2C4D0F3B\GENERATE.STAMP.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\OGG-SUBBUILD\CMAKEFILES\D93B099F7D38D19E61574E8FD9508E3D\GENERATE.STAMP.RULE
 setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/ogg-subbuild" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/ogg-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/ogg-subbuild/ogg-populate.sln"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project/build/_deps/ogg-subbuild -BC:/Users/gameuser/Desktop/DSAA-Project/build/_deps/ogg-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/ogg-subbuild/ogg-populate.slnx
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

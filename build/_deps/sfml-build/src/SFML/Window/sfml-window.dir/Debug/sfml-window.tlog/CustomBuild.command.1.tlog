@@ -1,6 +1,6 @@
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\SFML-SRC\SRC\SFML\WINDOW\CMAKELISTS.TXT
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\SFML-SRC\SRC\SFML\WINDOW\CMAKELISTS.TXT
 setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build" --check-stamp-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-build/src/SFML/Window/CMakeFiles/generate.stamp"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project -BC:/Users/gameuser/Desktop/DSAA-Project/build --check-stamp-file C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-build/src/SFML/Window/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

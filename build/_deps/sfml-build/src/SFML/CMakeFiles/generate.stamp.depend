@@ -1,5 +1,5 @@
 # CMake generation dependency list for this directory.
-C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-src/cmake/CompilerWarnings.cmake
-C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-src/cmake/Macros.cmake
-C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-src/src/SFML/CMakeLists.txt
-C:/msys64/ucrt64/share/cmake/Modules/CMakeParseArguments.cmake
+C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-src/cmake/CompilerWarnings.cmake
+C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-src/cmake/Macros.cmake
+C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-src/src/SFML/CMakeLists.txt
+C:/raylib/w64devkit/share/cmake-4.3/Modules/CMakeParseArguments.cmake

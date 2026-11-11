@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-subbuild\CMakeFiles\2aee720556a957f5b8007739afcb8c59\vorbis-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-subbuild\CMakeFiles\7ccced59e078ddf3bb287b241ccc0005\vorbis-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-subbuild\CMakeFiles\2aee720556a957f5b8007739afcb8c59\vorbis-populate-download.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-subbuild\CMakeFiles\7ccced59e078ddf3bb287b241ccc0005\vorbis-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-subbuild\CMakeFiles\2aee720556a957f5b8007739afcb8c59\vorbis-populate-update.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-subbuild\CMakeFiles\7ccced59e078ddf3bb287b241ccc0005\vorbis-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-subbuild\CMakeFiles\2aee720556a957f5b8007739afcb8c59\vorbis-populate-patch.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-subbuild\CMakeFiles\7ccced59e078ddf3bb287b241ccc0005\vorbis-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-subbuild\CMakeFiles\2aee720556a957f5b8007739afcb8c59\vorbis-populate-configure.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-subbuild\CMakeFiles\7ccced59e078ddf3bb287b241ccc0005\vorbis-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-subbuild\CMakeFiles\2aee720556a957f5b8007739afcb8c59\vorbis-populate-build.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-subbuild\CMakeFiles\7ccced59e078ddf3bb287b241ccc0005\vorbis-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-subbuild\CMakeFiles\2aee720556a957f5b8007739afcb8c59\vorbis-populate-install.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-subbuild\CMakeFiles\7ccced59e078ddf3bb287b241ccc0005\vorbis-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-subbuild\CMakeFiles\2aee720556a957f5b8007739afcb8c59\vorbis-populate-test.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-subbuild\CMakeFiles\7ccced59e078ddf3bb287b241ccc0005\vorbis-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-subbuild\CMakeFiles\1c35d72a2caca3ee967bed9d4715a211\vorbis-populate-complete.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-subbuild\CMakeFiles\783db77ed3931b8b4104d2a40ac7ed1d\vorbis-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-subbuild\CMakeFiles\32505c2f3651617d856cde9c27a3cac5\vorbis-populate.rule">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-subbuild\CMakeFiles\5b03b7d86a695b361b012d1cda128475\vorbis-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-subbuild\CMakeFiles\vorbis-populate" />
+    <None Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-subbuild\CMakeFiles\vorbis-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{24E004BD-0B9D-3EAF-B1EF-92F64766A6A0}</UniqueIdentifier>
+      <UniqueIdentifier>{C56C876F-A93B-39EA-9716-694CB28CBA08}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

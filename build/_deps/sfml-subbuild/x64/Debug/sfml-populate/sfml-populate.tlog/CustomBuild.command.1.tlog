@@ -1,8 +1,8 @@
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\18B256F3911A6A857D72AD1F21AC9C8A\SFML-POPULATE-MKDIR.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\13F3B665870FAECC85D9514EC0FAF7F1\SFML-POPULATE-MKDIR.RULE
 setlocal
-C:\msys64\ucrt64\bin\cmake.exe -Dcfgdir=/Debug -P "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-mkdirs.cmake"
+C:\raylib\w64devkit\bin\cmake.exe -Dcfgdir=/Debug -P C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-mkdir"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -10,31 +10,19 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\18B256F3911A6A857D72AD1F21AC9C8A\SFML-POPULATE-DOWNLOAD.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\13F3B665870FAECC85D9514EC0FAF7F1\SFML-POPULATE-DOWNLOAD.RULE
 setlocal
-cd "C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps"
+cd C:\Users\gameuser\Desktop\DSAA-Project\build\_deps
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/download-sfml-populate.cmake"
+C:\raylib\w64devkit\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/download-sfml-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/verify-sfml-populate.cmake"
+C:\raylib\w64devkit\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/verify-sfml-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/extract-sfml-populate.cmake"
+C:\raylib\w64devkit\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/extract-sfml-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-download"
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\18B256F3911A6A857D72AD1F21AC9C8A\SFML-POPULATE-UPDATE.RULE
-setlocal
-C:\msys64\ucrt64\bin\cmake.exe -E echo_append
-if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-update"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -42,11 +30,11 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\18B256F3911A6A857D72AD1F21AC9C8A\SFML-POPULATE-PATCH.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\13F3B665870FAECC85D9514EC0FAF7F1\SFML-POPULATE-UPDATE.RULE
 setlocal
-C:\msys64\ucrt64\bin\cmake.exe -E echo_append
+C:\raylib\w64devkit\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-patch"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -54,15 +42,27 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\18B256F3911A6A857D72AD1F21AC9C8A\SFML-POPULATE-CONFIGURE.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\13F3B665870FAECC85D9514EC0FAF7F1\SFML-POPULATE-PATCH.RULE
 setlocal
-cd "C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build"
+C:\raylib\w64devkit\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\13F3B665870FAECC85D9514EC0FAF7F1\SFML-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E echo_append
+C:\raylib\w64devkit\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-configure"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -70,15 +70,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\18B256F3911A6A857D72AD1F21AC9C8A\SFML-POPULATE-BUILD.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\13F3B665870FAECC85D9514EC0FAF7F1\SFML-POPULATE-BUILD.RULE
 setlocal
-cd "C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build"
+cd C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E echo_append
+C:\raylib\w64devkit\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-build"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -86,15 +86,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\18B256F3911A6A857D72AD1F21AC9C8A\SFML-POPULATE-INSTALL.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\13F3B665870FAECC85D9514EC0FAF7F1\SFML-POPULATE-INSTALL.RULE
 setlocal
-cd "C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build"
+cd C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E echo_append
+C:\raylib\w64devkit\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-install"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -102,29 +102,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\18B256F3911A6A857D72AD1F21AC9C8A\SFML-POPULATE-TEST.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\13F3B665870FAECC85D9514EC0FAF7F1\SFML-POPULATE-TEST.RULE
 setlocal
-cd "C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build"
+cd C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E echo_append
+C:\raylib\w64devkit\bin\cmake.exe -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-test"
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\6B9CA7EF1B9FC4D3F056232FDEB36862\SFML-POPULATE-COMPLETE.RULE
-setlocal
-C:\msys64\ucrt64\bin\cmake.exe -E make_directory "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/CMakeFiles/Debug"
-if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/CMakeFiles/Debug/sfml-populate-complete"
-if %errorlevel% neq 0 goto :cmEnd
-C:\msys64\ucrt64\bin\cmake.exe -E touch "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-done"
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -132,7 +118,21 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\56668FF43EB5BBBEA5E03BFABD1F1C20\SFML-POPULATE.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\470A35EF754C6D95BD2817C7AE24A4B3\SFML-POPULATE-COMPLETE.RULE
+setlocal
+C:\raylib\w64devkit\bin\cmake.exe -E make_directory C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/CMakeFiles/Debug/sfml-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\raylib\w64devkit\bin\cmake.exe -E touch C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\23AFFB278F94D78225B510DF1E2F21D2\SFML-POPULATE.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -140,9 +140,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKELISTS.TXT
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKELISTS.TXT
 setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild" --check-stamp-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/CMakeFiles/generate.stamp"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild -BC:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild --check-stamp-file C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

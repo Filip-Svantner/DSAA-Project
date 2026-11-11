@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{446ECDAC-58AC-3FB6-850A-8AD5B04A2942}</ProjectGuid>
+    <ProjectGuid>{10CAD50C-583F-37DA-8F1D-82D79533F580}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -33,22 +33,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SFMLGame.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SFMLGame</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SFMLGame.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SFMLGame</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SFMLGame.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SFMLGame</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SFMLGame.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SFMLGame</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -111,16 +111,28 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SFML_STATIC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\raylib\w64devkit\bin\cmake.exe -E copy_directory C:/Users/gameuser/Desktop/DSAA-Project/assets C:/Users/gameuser/Desktop/DSAA-Project/build/Debug/assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
     <Link>
       <AdditionalDependencies>_deps\sfml-build\lib\Debug\sfml-graphics-s-d.lib;_deps\sfml-build\lib\Debug\sfml-audio-s-d.lib;_deps\sfml-build\lib\Debug\sfml-window-s-d.lib;opengl32.lib;gdi32.lib;_deps\sfml-build\lib\Debug\freetyped.lib;_deps\sfml-build\lib\Debug\sfml-system-s-d.lib;winmm.lib;_deps\sfml-build\lib\Debug\vorbisfiled.lib;_deps\sfml-build\lib\Debug\vorbisencd.lib;_deps\sfml-build\lib\Debug\vorbisd.lib;_deps\sfml-build\lib\Debug\FLACd.lib;_deps\sfml-build\lib\Debug\oggd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -129,9 +141,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/Debug/SFMLGame.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/gameuser/Desktop/DSAA-Project/build/Debug/SFMLGame.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/Debug/SFMLGame.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/gameuser/Desktop/DSAA-Project/build/Debug/SFMLGame.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -141,7 +153,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -167,16 +179,28 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\raylib\w64devkit\bin\cmake.exe -E copy_directory C:/Users/gameuser/Desktop/DSAA-Project/assets C:/Users/gameuser/Desktop/DSAA-Project/build/Release/assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
     <Link>
       <AdditionalDependencies>_deps\sfml-build\lib\Release\sfml-graphics-s.lib;_deps\sfml-build\lib\Release\sfml-audio-s.lib;_deps\sfml-build\lib\Release\sfml-window-s.lib;opengl32.lib;gdi32.lib;_deps\sfml-build\lib\Release\freetype.lib;_deps\sfml-build\lib\Release\sfml-system-s.lib;winmm.lib;_deps\sfml-build\lib\Release\vorbisfile.lib;_deps\sfml-build\lib\Release\vorbisenc.lib;_deps\sfml-build\lib\Release\vorbis.lib;_deps\sfml-build\lib\Release\FLAC.lib;_deps\sfml-build\lib\Release\ogg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -185,9 +209,9 @@
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/Release/SFMLGame.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/gameuser/Desktop/DSAA-Project/build/Release/SFMLGame.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/Release/SFMLGame.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/gameuser/Desktop/DSAA-Project/build/Release/SFMLGame.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -197,7 +221,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -223,16 +247,28 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\raylib\w64devkit\bin\cmake.exe -E copy_directory C:/Users/gameuser/Desktop/DSAA-Project/assets C:/Users/gameuser/Desktop/DSAA-Project/build/MinSizeRel/assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
     <Link>
       <AdditionalDependencies>_deps\sfml-build\lib\MinSizeRel\sfml-graphics-s.lib;_deps\sfml-build\lib\MinSizeRel\sfml-audio-s.lib;_deps\sfml-build\lib\MinSizeRel\sfml-window-s.lib;opengl32.lib;gdi32.lib;_deps\sfml-build\lib\MinSizeRel\freetype.lib;_deps\sfml-build\lib\MinSizeRel\sfml-system-s.lib;winmm.lib;_deps\sfml-build\lib\MinSizeRel\vorbisfile.lib;_deps\sfml-build\lib\MinSizeRel\vorbisenc.lib;_deps\sfml-build\lib\MinSizeRel\vorbis.lib;_deps\sfml-build\lib\MinSizeRel\FLAC.lib;_deps\sfml-build\lib\MinSizeRel\ogg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -241,9 +277,9 @@
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/MinSizeRel/SFMLGame.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/gameuser/Desktop/DSAA-Project/build/MinSizeRel/SFMLGame.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/MinSizeRel/SFMLGame.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/gameuser/Desktop/DSAA-Project/build/MinSizeRel/SFMLGame.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -253,7 +289,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -278,16 +314,28 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\raylib\w64devkit\bin\cmake.exe -E copy_directory C:/Users/gameuser/Desktop/DSAA-Project/assets C:/Users/gameuser/Desktop/DSAA-Project/build/RelWithDebInfo/assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
     <Link>
       <AdditionalDependencies>_deps\sfml-build\lib\RelWithDebInfo\sfml-graphics-s.lib;_deps\sfml-build\lib\RelWithDebInfo\sfml-audio-s.lib;_deps\sfml-build\lib\RelWithDebInfo\sfml-window-s.lib;opengl32.lib;gdi32.lib;_deps\sfml-build\lib\RelWithDebInfo\freetype.lib;_deps\sfml-build\lib\RelWithDebInfo\sfml-system-s.lib;winmm.lib;_deps\sfml-build\lib\RelWithDebInfo\vorbisfile.lib;_deps\sfml-build\lib\RelWithDebInfo\vorbisenc.lib;_deps\sfml-build\lib\RelWithDebInfo\vorbis.lib;_deps\sfml-build\lib\RelWithDebInfo\FLAC.lib;_deps\sfml-build\lib\RelWithDebInfo\ogg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -296,9 +344,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/RelWithDebInfo/SFMLGame.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/gameuser/Desktop/DSAA-Project/build/RelWithDebInfo/SFMLGame.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/RelWithDebInfo/SFMLGame.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/gameuser/Desktop/DSAA-Project/build/RelWithDebInfo/SFMLGame.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -307,11 +355,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Predator/OneDrive/Počítač/DSAA Project/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/gameuser/Desktop/DSAA-Project/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build" --check-stamp-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/CMakeFiles/generate.stamp"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project -BC:/Users/gameuser/Desktop/DSAA-Project/build --check-stamp-file C:/Users/gameuser/Desktop/DSAA-Project/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -319,12 +367,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\CMakeFiles\4.2.0\CMakeCXXCompiler.cmake;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\CMakeFiles\4.2.0\CMakeRCCompiler.cmake;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\CMakeFiles\4.2.0\CMakeSystem.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeCXXInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeGenericSystem.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeInitializeConfigs.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeLanguageInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeRCInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeSystemSpecificInitialize.cmake;C:\msys64\ucrt64\share\cmake\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\msys64\ucrt64\share\cmake\Modules\Compiler\MSVC-CXX.cmake;C:\msys64\ucrt64\share\cmake\Modules\Compiler\MSVC.cmake;C:\msys64\ucrt64\share\cmake\Modules\ExternalProject\shared_internal_commands.cmake;C:\msys64\ucrt64\share\cmake\Modules\FetchContent.cmake;C:\msys64\ucrt64\share\cmake\Modules\FetchContent\CMakeLists.cmake.in;C:\msys64\ucrt64\share\cmake\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\Linker\MSVC-CXX.cmake;C:\msys64\ucrt64\share\cmake\Modules\Linker\MSVC.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Linker\Windows-MSVC.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Windows-Initialize.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Windows-MSVC-CXX.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Windows-MSVC.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Windows.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\CMakeFiles\4.3.1\CMakeCXXCompiler.cmake;C:\Users\gameuser\Desktop\DSAA-Project\build\CMakeFiles\4.3.1\CMakeRCCompiler.cmake;C:\Users\gameuser\Desktop\DSAA-Project\build\CMakeFiles\4.3.1\CMakeSystem.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FetchContent.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Predator/OneDrive/Počítač/DSAA Project/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/gameuser/Desktop/DSAA-Project/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build" --check-stamp-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/CMakeFiles/generate.stamp"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project -BC:/Users/gameuser/Desktop/DSAA-Project/build --check-stamp-file C:/Users/gameuser/Desktop/DSAA-Project/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -332,12 +380,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\CMakeFiles\4.2.0\CMakeCXXCompiler.cmake;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\CMakeFiles\4.2.0\CMakeRCCompiler.cmake;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\CMakeFiles\4.2.0\CMakeSystem.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeCXXInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeGenericSystem.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeInitializeConfigs.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeLanguageInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeRCInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeSystemSpecificInitialize.cmake;C:\msys64\ucrt64\share\cmake\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\msys64\ucrt64\share\cmake\Modules\Compiler\MSVC-CXX.cmake;C:\msys64\ucrt64\share\cmake\Modules\Compiler\MSVC.cmake;C:\msys64\ucrt64\share\cmake\Modules\ExternalProject\shared_internal_commands.cmake;C:\msys64\ucrt64\share\cmake\Modules\FetchContent.cmake;C:\msys64\ucrt64\share\cmake\Modules\FetchContent\CMakeLists.cmake.in;C:\msys64\ucrt64\share\cmake\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\Linker\MSVC-CXX.cmake;C:\msys64\ucrt64\share\cmake\Modules\Linker\MSVC.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Linker\Windows-MSVC.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Windows-Initialize.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Windows-MSVC-CXX.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Windows-MSVC.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Windows.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\CMakeFiles\4.3.1\CMakeCXXCompiler.cmake;C:\Users\gameuser\Desktop\DSAA-Project\build\CMakeFiles\4.3.1\CMakeRCCompiler.cmake;C:\Users\gameuser\Desktop\DSAA-Project\build\CMakeFiles\4.3.1\CMakeSystem.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FetchContent.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Predator/OneDrive/Počítač/DSAA Project/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/gameuser/Desktop/DSAA-Project/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build" --check-stamp-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/CMakeFiles/generate.stamp"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project -BC:/Users/gameuser/Desktop/DSAA-Project/build --check-stamp-file C:/Users/gameuser/Desktop/DSAA-Project/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -345,12 +393,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\CMakeFiles\4.2.0\CMakeCXXCompiler.cmake;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\CMakeFiles\4.2.0\CMakeRCCompiler.cmake;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\CMakeFiles\4.2.0\CMakeSystem.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeCXXInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeGenericSystem.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeInitializeConfigs.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeLanguageInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeRCInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeSystemSpecificInitialize.cmake;C:\msys64\ucrt64\share\cmake\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\msys64\ucrt64\share\cmake\Modules\Compiler\MSVC-CXX.cmake;C:\msys64\ucrt64\share\cmake\Modules\Compiler\MSVC.cmake;C:\msys64\ucrt64\share\cmake\Modules\ExternalProject\shared_internal_commands.cmake;C:\msys64\ucrt64\share\cmake\Modules\FetchContent.cmake;C:\msys64\ucrt64\share\cmake\Modules\FetchContent\CMakeLists.cmake.in;C:\msys64\ucrt64\share\cmake\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\Linker\MSVC-CXX.cmake;C:\msys64\ucrt64\share\cmake\Modules\Linker\MSVC.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Linker\Windows-MSVC.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Windows-Initialize.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Windows-MSVC-CXX.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Windows-MSVC.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Windows.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\CMakeFiles\4.3.1\CMakeCXXCompiler.cmake;C:\Users\gameuser\Desktop\DSAA-Project\build\CMakeFiles\4.3.1\CMakeRCCompiler.cmake;C:\Users\gameuser\Desktop\DSAA-Project\build\CMakeFiles\4.3.1\CMakeSystem.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FetchContent.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Predator/OneDrive/Počítač/DSAA Project/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/gameuser/Desktop/DSAA-Project/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build" --check-stamp-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/CMakeFiles/generate.stamp"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project -BC:/Users/gameuser/Desktop/DSAA-Project/build --check-stamp-file C:/Users/gameuser/Desktop/DSAA-Project/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -358,60 +406,63 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\CMakeFiles\4.2.0\CMakeCXXCompiler.cmake;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\CMakeFiles\4.2.0\CMakeRCCompiler.cmake;C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\CMakeFiles\4.2.0\CMakeSystem.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeCXXInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeGenericSystem.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeInitializeConfigs.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeLanguageInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeRCInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\CMakeSystemSpecificInitialize.cmake;C:\msys64\ucrt64\share\cmake\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\msys64\ucrt64\share\cmake\Modules\Compiler\MSVC-CXX.cmake;C:\msys64\ucrt64\share\cmake\Modules\Compiler\MSVC.cmake;C:\msys64\ucrt64\share\cmake\Modules\ExternalProject\shared_internal_commands.cmake;C:\msys64\ucrt64\share\cmake\Modules\FetchContent.cmake;C:\msys64\ucrt64\share\cmake\Modules\FetchContent\CMakeLists.cmake.in;C:\msys64\ucrt64\share\cmake\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\msys64\ucrt64\share\cmake\Modules\Linker\MSVC-CXX.cmake;C:\msys64\ucrt64\share\cmake\Modules\Linker\MSVC.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Linker\Windows-MSVC.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Windows-Initialize.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Windows-MSVC-CXX.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Windows-MSVC.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\Windows.cmake;C:\msys64\ucrt64\share\cmake\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\CMakeFiles\4.3.1\CMakeCXXCompiler.cmake;C:\Users\gameuser\Desktop\DSAA-Project\build\CMakeFiles\4.3.1\CMakeRCCompiler.cmake;C:\Users\gameuser\Desktop\DSAA-Project\build\CMakeFiles\4.3.1\CMakeSystem.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FetchContent.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in;C:\raylib\w64devkit\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\raylib\w64devkit\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\gameuser\Desktop\DSAA-Project\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\main.cpp" />
+    <ClCompile Include="C:\Users\gameuser\Desktop\DSAA-Project\main.cpp" />
+    <ClCompile Include="C:\Users\gameuser\Desktop\DSAA-Project\Game.cpp" />
+    <ClCompile Include="C:\Users\gameuser\Desktop\DSAA-Project\Room.cpp" />
+    <ClCompile Include="C:\Users\gameuser\Desktop\DSAA-Project\Enemy.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\ZERO_CHECK.vcxproj">
-      <Project>{E792A6EC-AB74-3DB8-9FAE-741AF03C52A6}</Project>
+    <ProjectReference Include="C:\Users\gameuser\Desktop\DSAA-Project\build\ZERO_CHECK.vcxproj">
+      <Project>{885764E4-526C-3D61-B105-CE7DFD9D9F0E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\flac-build\src\libFLAC\FLAC.vcxproj">
-      <Project>{FD596702-8CB6-3072-8331-9C35BD5BAE8D}</Project>
+    <ProjectReference Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\flac-build\src\libFLAC\FLAC.vcxproj">
+      <Project>{97BE6502-B10A-3B64-A751-2519D9407C48}</Project>
       <Name>FLAC</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\freetype-build\freetype.vcxproj">
-      <Project>{001254E0-69C5-38A8-B440-10AADEE3D895}</Project>
+    <ProjectReference Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\freetype-build\freetype.vcxproj">
+      <Project>{EC90B89F-5AB0-3A20-B383-A07F5317776F}</Project>
       <Name>freetype</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\ogg-build\ogg.vcxproj">
-      <Project>{283FF273-AE33-3929-B11C-81F39BFC1CA8}</Project>
+    <ProjectReference Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\ogg-build\ogg.vcxproj">
+      <Project>{3EC69C8E-DF27-3329-AECE-70F54E1D1802}</Project>
       <Name>ogg</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build\src\SFML\Audio\sfml-audio.vcxproj">
-      <Project>{0A940DA5-FFB0-31BE-9AC4-67E5080E57BD}</Project>
+    <ProjectReference Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build\src\SFML\Audio\sfml-audio.vcxproj">
+      <Project>{F92F5AC9-4B40-3AAC-A5F0-093B2F389BD1}</Project>
       <Name>sfml-audio</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
-      <Project>{3B8BC98A-F243-3C00-8068-54F23E57F25E}</Project>
+    <ProjectReference Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{1C84B348-507A-3B19-A6B4-7BA5F93D29D9}</Project>
       <Name>sfml-graphics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
-      <Project>{8AD938AF-5740-38CF-8A40-F2B97B52104A}</Project>
+    <ProjectReference Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
+      <Project>{BDC752BA-200C-30D6-AAF9-0C571FD5F8A4}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
-      <Project>{BC160127-CFF0-318D-AC65-63EE73AB605C}</Project>
+    <ProjectReference Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{9106797A-1BF7-3C9E-8AB0-31CBB55B0567}</Project>
       <Name>sfml-window</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-build\lib\vorbis.vcxproj">
-      <Project>{642DF10F-596E-369E-8D0A-C2F12F928773}</Project>
+    <ProjectReference Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-build\lib\vorbis.vcxproj">
+      <Project>{555F3A24-FAB7-3A03-94C4-9893729471B0}</Project>
       <Name>vorbis</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-build\lib\vorbisenc.vcxproj">
-      <Project>{C25FDE71-6DF2-363D-8DB7-BBE0F244FCF3}</Project>
+    <ProjectReference Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-build\lib\vorbisenc.vcxproj">
+      <Project>{14A48367-4F35-34BE-BBD3-0B837AD220FA}</Project>
       <Name>vorbisenc</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Predator\OneDrive\Počítač\DSAA Project\build\_deps\vorbis-build\lib\vorbisfile.vcxproj">
-      <Project>{7278E815-8ACE-3520-B609-26063891C44C}</Project>
+    <ProjectReference Include="C:\Users\gameuser\Desktop\DSAA-Project\build\_deps\vorbis-build\lib\vorbisfile.vcxproj">
+      <Project>{52BB4C60-C986-3471-8672-5310848252ED}</Project>
       <Name>vorbisfile</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,6 +1,6 @@
-^C:\USERS\PREDATOR\ONEDRIVE\POČÍTAČ\DSAA PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\56668FF43EB5BBBEA5E03BFABD1F1C20\GENERATE.STAMP.RULE
+^C:\USERS\GAMEUSER\DESKTOP\DSAA-PROJECT\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\23AFFB278F94D78225B510DF1E2F21D2\GENERATE.STAMP.RULE
 setlocal
-C:\msys64\ucrt64\bin\cmake.exe "-SC:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild" "-BC:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Predator/OneDrive/Počítač/DSAA Project/build/_deps/sfml-subbuild/sfml-populate.sln"
+C:\raylib\w64devkit\bin\cmake.exe -SC:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild -BC:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/sfml-subbuild/sfml-populate.slnx
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
