@@ -46,6 +46,7 @@ int main() {
 
 void init()
 {
+    Enemy::loadSpritesheet("assets/textures/enemies.png");
     game.generateFloor();
     game.displayFloor();
 }

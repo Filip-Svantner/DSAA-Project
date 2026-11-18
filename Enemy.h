@@ -1,4 +1,5 @@
 #pragma once
+#include <SFML/Graphics.hpp>
 #include <iostream>
 
 struct Loot
@@ -18,6 +19,8 @@ enum class EnemyType
 class Enemy
 {
 protected:
+    static sf::Texture texture;
+    sf::Sprite sprite;
     std::string name;
     Loot loot;
     EnemyType type;
@@ -26,8 +29,20 @@ protected:
 
 public :
 
-    virtual ~Enemy() = default;
+    Enemy()
+    {
+        loadTexture("assets/textures/placeholder.png");
+        sprite.setTexture(texture);
+    }
     virtual void setStats() = 0;
+    void initSprite(sf::IntRect rect)
+    {
+        sprite.setTextureRect(rect);
+    }
+    static bool loadTexture(const std::string& path)
+    {
+        return texture.loadFromFile(path);
+    }
 };
 
 class Slime : public Enemy
@@ -37,6 +52,7 @@ public:
     {
         name = "Slime";
         setStats();
+        initSprite(sf::IntRect({0,0},{64,64}));
     }
     void setStats() override
     {
@@ -54,6 +70,13 @@ public:
     {
         name = "Spider";
         setStats();
+
+        if(!texture.loadFromFile("assets/textures/placeholder.png"))
+        {
+            std::cout << " Slime not loaded " << "\n";
+        }
+        sprite.setTexture(texture);
+        sprite.setTextureRect(sf::IntRect({0,0},{64,64}));
     }
     void setStats() override
     {
@@ -71,6 +94,13 @@ public:
     {
         name = "Wolf";
         setStats();
+
+        if(!texture.loadFromFile("assets/textures/placeholder.png"))
+        {
+            std::cout << " Slime not loaded " << "\n";
+        }
+        sprite.setTexture(texture);
+        sprite.setTextureRect(sf::IntRect({0,0},{64,64}));
     }
     void setStats() override
     {
@@ -88,6 +118,13 @@ public:
     {
         name = "Goblin";
         setStats();
+
+        if(!texture.loadFromFile("assets/textures/placeholder.png"))
+        {
+            std::cout << " Slime not loaded " << "\n";
+        }
+        sprite.setTexture(texture);
+        sprite.setTextureRect(sf::IntRect({0,0},{64,64}));
     }
     void setStats() override
     {
@@ -113,6 +150,13 @@ public:
         dmg = 15;
         loot.gold = 50;
         loot.xp = 100;
+
+        if(!texture.loadFromFile("assets/textures/placeholder.png"))
+        {
+            std::cout << " Slime not loaded " << "\n";
+        }
+        sprite.setTexture(texture);
+        sprite.setTextureRect(sf::IntRect({0,0},{64,64}));
     }
 
 };
