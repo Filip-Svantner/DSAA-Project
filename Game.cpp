@@ -1,12 +1,13 @@
 #include <iostream>
 #include "Game.h"
 
-Game::Game() : combatText(font)
+Game::Game() : combatText(font), attack(font), bag(font), run(font)
 {
     if(!font.openFromFile("assets/arial.ttf"))
     {
         std::cout << "Font not loaded" << "\n";
     }
+    initUI();
 }
 
 RoomNode* Game::createRoomNode(Room room)
@@ -57,7 +58,8 @@ void Game::displayFloor()
 
 void Game::generateFloor()
 {
-    chest, shop = false;
+    chest = false;
+    shop = false;
     for (int i = 0; i < NO_OF_ROOMS; i++)
     {
         int r = rand()%101;
@@ -127,4 +129,40 @@ void Game::processCombat()
     {
         combatText.setString("Attack");
     }
+}
+
+void Game::draw(sf::RenderWindow& window)
+{
+    if(enemy)
+    {
+        enemy->drawEnemy(window);
+    }
+    player.drawPlayer(window);
+
+    window.draw(backUI);
+    window.draw(attack);
+    window.draw(bag);
+    window.draw(run);
+}
+
+void Game::initUI()
+{
+    backUI.setSize({400,150});
+    backUI.setPosition({400,450});
+    backUI.setFillColor(sf::Color::White);
+
+    attack.setString("ATTACK");
+    attack.setCharacterSize(50U);
+    attack.setPosition({410,460});
+    attack.setFillColor(sf::Color::Black);
+
+    bag.setString("BAG");
+    bag.setCharacterSize(50U);
+    bag.setPosition({650,460});
+    bag.setFillColor(sf::Color::Black);
+
+    run.setString("RUN");
+    run.setCharacterSize(50U);
+    run.setPosition({550,520});
+    run.setFillColor(sf::Color::Black);
 }

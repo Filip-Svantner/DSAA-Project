@@ -28,7 +28,14 @@ class Game
     bool enemyTurn = false;
 
     sf::Font font;
-    sf::Text combatText; 
+    sf::Text combatText;
+    
+    // UI
+    sf::RectangleShape backUI;
+    sf::RectangleShape selection;
+    sf::Text attack;
+    sf::Text bag;
+    sf::Text run;
 
 public:
     Game();
@@ -40,6 +47,9 @@ public:
     void generateFloor();
     RoomType getState();
     void setEnemy();
+    Enemy* getEnemy() const { return enemy; };
     void processCombat();
+    void draw(sf::RenderWindow& window);
+    void initUI();
 
 };

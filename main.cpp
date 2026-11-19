@@ -2,20 +2,25 @@
 #include <optional>
 #include <cstdlib>
 #include <ctime>
-#include "Game.h"
-
-Game game; 
+#include "Game.h" 
 
 void init();
 void update();
+void draw(sf::RenderWindow& window);
+bool enemySet = false;
+
+ Game game;
 
 
-int main() {
+int main() 
+{
     std::srand(std::time(nullptr));
+    sf::RenderWindow window(sf::VideoMode({800, 600}), "SFML 3 CMake Setup");
 
     init();
 
-    sf::RenderWindow window(sf::VideoMode({800, 600}), "SFML 3 CMake Setup");
+    game.setEnemy();
+
     window.setFramerateLimit(60);
 
     
@@ -37,16 +42,14 @@ int main() {
             }
         }
 
-        window.clear();
-        window.draw(circle);
-        window.display();
+        update();
+        draw(window);
     }
     return 0;
 }
 
 void init()
 {
-    Enemy::loadSpritesheet("assets/textures/enemies.png");
     game.generateFloor();
     game.displayFloor();
 }
@@ -56,7 +59,18 @@ void update()
 
     if (game.getState() == RoomType::COMBAT)
     {
-        game.setEnemy();
+        if(!enemySet)
+        {
+            game.setEnemy();
+            enemySet = true;
+        }
         game.processCombat();
     }
+}
+
+void draw(sf::RenderWindow& window)
+{
+    window.clear();
+    game.draw(window);
+    window.display();
 }

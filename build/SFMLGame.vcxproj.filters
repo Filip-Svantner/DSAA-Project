@@ -13,6 +13,9 @@
     <ClCompile Include="C:\Users\gameuser\Desktop\DSAA-Project\Enemy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\gameuser\Desktop\DSAA-Project\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\gameuser\Desktop\DSAA-Project\CMakeLists.txt" />

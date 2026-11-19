@@ -1,4 +1,8 @@
 #include <iostream>
 #include "Enemy.h"
 
-sf::Texture Enemy::texture;
+
+void Enemy::drawEnemy(sf::RenderWindow& window)
+{
+    window.draw(sprite);
+}

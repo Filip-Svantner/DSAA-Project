@@ -19,7 +19,7 @@ enum class EnemyType
 class Enemy
 {
 protected:
-    static sf::Texture texture;
+    sf::Texture texture;
     sf::Sprite sprite;
     std::string name;
     Loot loot;
@@ -29,30 +29,29 @@ protected:
 
 public :
 
-    Enemy()
+    Enemy(const std::string& texturePath, sf::IntRect rect) : sprite(texture)
     {
-        loadTexture("assets/textures/placeholder.png");
-        sprite.setTexture(texture);
-    }
-    virtual void setStats() = 0;
-    void initSprite(sf::IntRect rect)
-    {
+        if (!texture.loadFromFile(texturePath)) 
+        {
+            std::cout << "Failed to load texture: " << texturePath << "\n";
+        }
         sprite.setTextureRect(rect);
+        sprite.setPosition({400,100});
+        sprite.scale({5.0f,5.0f});
     }
-    static bool loadTexture(const std::string& path)
-    {
-        return texture.loadFromFile(path);
-    }
+
+    virtual void setStats() = 0;
+    void drawEnemy(sf::RenderWindow& window);
+
 };
 
 class Slime : public Enemy
 {
 public:
-    Slime()
+    Slime() : Enemy("assets/textures/placeholder.png", {{272, 16}, {32, 32}})
     {
         name = "Slime";
         setStats();
-        initSprite(sf::IntRect({0,0},{64,64}));
     }
     void setStats() override
     {
@@ -66,17 +65,10 @@ public:
 class Spider : public Enemy
 {
 public:
-    Spider()
+    Spider() : Enemy("assets/textures/placeholder.png", {{144, 16}, {32, 32}})
     {
         name = "Spider";
         setStats();
-
-        if(!texture.loadFromFile("assets/textures/placeholder.png"))
-        {
-            std::cout << " Slime not loaded " << "\n";
-        }
-        sprite.setTexture(texture);
-        sprite.setTextureRect(sf::IntRect({0,0},{64,64}));
     }
     void setStats() override
     {
@@ -90,17 +82,10 @@ public:
 class Wolf : public Enemy
 {
 public:
-    Wolf()
+    Wolf() : Enemy("assets/textures/placeholder.png", {{16, 16}, {32, 32}})
     {
         name = "Wolf";
         setStats();
-
-        if(!texture.loadFromFile("assets/textures/placeholder.png"))
-        {
-            std::cout << " Slime not loaded " << "\n";
-        }
-        sprite.setTexture(texture);
-        sprite.setTextureRect(sf::IntRect({0,0},{64,64}));
     }
     void setStats() override
     {
@@ -114,17 +99,10 @@ public:
 class Goblin : public Enemy
 {
 public:
-    Goblin()
+    Goblin() : Enemy("assets/textures/placeholder.png", {{208, 16}, {32, 32}})
     {
         name = "Goblin";
         setStats();
-
-        if(!texture.loadFromFile("assets/textures/placeholder.png"))
-        {
-            std::cout << " Slime not loaded " << "\n";
-        }
-        sprite.setTexture(texture);
-        sprite.setTextureRect(sf::IntRect({0,0},{64,64}));
     }
     void setStats() override
     {
@@ -138,7 +116,7 @@ public:
 class Bear : public Enemy
 {
 public:
-    Bear()
+    Bear() : Enemy("assets/textures/placeholder.png", {{80, 16}, {32, 32}})
     {
         name = "Bear";
         setStats();
@@ -150,13 +128,6 @@ public:
         dmg = 15;
         loot.gold = 50;
         loot.xp = 100;
-
-        if(!texture.loadFromFile("assets/textures/placeholder.png"))
-        {
-            std::cout << " Slime not loaded " << "\n";
-        }
-        sprite.setTexture(texture);
-        sprite.setTextureRect(sf::IntRect({0,0},{64,64}));
     }
 
 };
