@@ -1,8 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-src/CMakeLists.txt
-C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-src/vorbis.pc.in
-C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-src/vorbisenc.pc.in
-C:/Users/gameuser/Desktop/DSAA-Project/build/_deps/vorbis-src/vorbisfile.pc.in
-C:/raylib/w64devkit/share/cmake-4.3/Modules/CheckIncludeFiles.cmake
-C:/raylib/w64devkit/share/cmake-4.3/Modules/CheckLibraryExists.cmake
-C:/raylib/w64devkit/share/cmake-4.3/Modules/GNUInstallDirs.cmake
